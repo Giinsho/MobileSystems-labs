@@ -1,0 +1,90 @@
+nav {
+  background-color: rgba(224, 3, 3, 0.438);
+}
+
+ .image{
+    margin-left: 1em;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+a {
+  font-size: xx-large;
+}
+
+h1{
+    padding: 10px;
+}
+
+article p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    background-color: #e94c0e;
+  }
+  
+  li {
+    
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:link {
+    color: rgb(255, 255, 255);
+  }
+  li a:visited {
+    color: #fcfcfc;
+  }
+  li a:hover {
+    color: #ffffff;
+  }
+  li a:active {
+    color: #ffffff;
+  }
+
+  li p{
+      text-align: center;
+      color: white;
+  }
+  
+
+  @media only screen and (min-width: 1150px) {
+    /* For mobile phones M: */
+   
+     ul a{
+           
+             display: none;
+         }
+ }
+
+ @media only screen and (min-width: 1000px) {
+    /* For mobile phones M: */
+  
+     ul p{
+          
+             display: none;
+         }
+ }
+
+ @media only screen and (min-width: 650px) {
+    /* For mobile phones M: */
+    nav {
+        width: 20%;
+    }
+    
+ }
+
+
